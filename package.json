@@ -1,0 +1,16 @@
+{
+  "name": "chromedriver-lambda-layer",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "deploy:prod": "serverless deploy -v -s prod",
+    "deploy:test": "serverless deploy -v -s test"
+  },
+  "author": "",
+  "license": "ISC"
+}

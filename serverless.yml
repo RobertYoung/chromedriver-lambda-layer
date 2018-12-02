@@ -1,0 +1,10 @@
+service: chromedriver-lambda-layer
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
+
+layers:
+  chromedriver:
+    path: lib
